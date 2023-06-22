@@ -59,7 +59,7 @@ jobs:
       Solution_Name: AllLive.sln                       # 替换为解决方案名 如 MyWpfApp.sln.
       Test_Project_Path: AllLive.UWP\AllLive.UWP.csproj                 # 替换为测试项目的路径 如 MyWpfApp.Tests\MyWpfApp.Tests.csproj.
       Wap_Project_Directory:  AllLive.UWP   # 替换为相对于解决方案的打包项目文件夹 如 MyWpfApp.Package.
-      Wap_Project_Path:  AllLive.UWP                   # 替换为打包项目文件路径 如 MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Wap_Project_Path:  AllLive.UWP\Package.appxmanifest                   # 替换为打包项目文件路径 如 MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
     - name: Checkout
